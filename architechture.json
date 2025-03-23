@@ -1,0 +1,5103 @@
+{
+  "links": [
+    {
+      "from": 2,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "text"
+        }
+      ],
+      "to": 3,
+      "data": {
+        "io": [
+          {
+            "input": "text",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 1,
+      "paramMapping": [
+        {
+          "from": "input",
+          "to": "targetlanguage"
+        }
+      ],
+      "to": 2,
+      "data": {
+        "io": [
+          {
+            "input": "targetlanguage",
+            "output": "input"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 1,
+      "paramMapping": [
+        {
+          "from": "input",
+          "to": "language"
+        }
+      ],
+      "to": 4,
+      "data": {
+        "io": [
+          {
+            "input": "language",
+            "output": "input"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 0,
+      "paramMapping": [
+        {
+          "from": "input",
+          "to": "video"
+        }
+      ],
+      "to": 5,
+      "data": {
+        "io": [
+          {
+            "input": "video",
+            "output": "input"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 5,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "source_audio"
+        }
+      ],
+      "to": 2,
+      "data": {
+        "io": [
+          {
+            "input": "source_audio",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 5,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "data"
+        }
+      ],
+      "to": 4,
+      "data": {
+        "io": [
+          {
+            "input": "data",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 3,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "inputtext"
+        }
+      ],
+      "to": 4,
+      "data": {
+        "io": [
+          {
+            "input": "inputtext",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 3,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "text"
+        }
+      ],
+      "to": 6,
+      "data": {
+        "io": [
+          {
+            "input": "text",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 3,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "text"
+        }
+      ],
+      "to": 7,
+      "data": {
+        "io": [
+          {
+            "input": "text",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 6,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "output"
+        }
+      ],
+      "to": 9,
+      "data": {
+        "io": [
+          {
+            "input": "output",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 4,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "output"
+        }
+      ],
+      "to": 11,
+      "data": {
+        "io": [
+          {
+            "input": "output",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 7,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "text"
+        }
+      ],
+      "to": 8,
+      "data": {
+        "io": [
+          {
+            "input": "text",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 8,
+      "paramMapping": [
+        {
+          "from": "data",
+          "to": "output"
+        }
+      ],
+      "to": 10,
+      "data": {
+        "io": [
+          {
+            "input": "output",
+            "output": "data"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    },
+    {
+      "from": 1,
+      "paramMapping": [
+        {
+          "from": "input",
+          "to": "targetlanguage"
+        }
+      ],
+      "to": 8,
+      "data": {
+        "io": [
+          {
+            "input": "targetlanguage",
+            "output": "input"
+          }
+        ],
+        "isNew": false,
+        "isFocused": false
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "dataType": [
+        "video"
+      ],
+      "label": "Source Video, Audio, Text",
+      "message": "Enter the Video or Audio or Text",
+      "number": 0,
+      "position": {
+        "x": 208,
+        "y": 124
+      },
+      "type": "INPUT"
+    },
+    {
+      "dataType": [
+        "label"
+      ],
+      "label": "Target Language",
+      "message": "Enter the target Language",
+      "number": 1,
+      "position": {
+        "x": 720,
+        "y": 540
+      },
+      "type": "INPUT"
+    },
+    {
+      "assetId": "66017f9006f30a2d93ee5c80",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "speech-translation",
+      "functionType": "AI",
+      "inputValues": [],
+      "label": "AI 1",
+      "number": 2,
+      "position": {
+        "x": 672,
+        "y": 104
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": true,
+        "connectionType": [],
+        "createdAt": "2024-11-19T14:21:24.508Z",
+        "description": "",
+        "developer": "OpenAI",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "speech-translation",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": true,
+          "code": "speech-translation",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "source_audio",
+              "dataSubType": null,
+              "dataType": "audio",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Source Audio",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "sourcelanguage",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Source Language",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "targetlanguage",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Target Language",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "dialect",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Dialect",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "voice",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Voice",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "script",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Script",
+              "relatedFunction": null,
+              "required": false
+            }
+          ],
+          "isDummy": null,
+          "name": "Speech Translation",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "text"
+            }
+          ],
+          "rules": [
+            "isLanguageBased",
+            "isSingleOrNoReferenceRequired",
+            "isSameReferenceLanguageRequired"
+          ],
+          "status": "onboarded",
+          "type": "AI"
+        },
+        "hostedBy": "aiXplain",
+        "hostingMethod": "ALWAYSON",
+        "id": "66017f9006f30a2d93ee5c80",
+        "in": "English",
+        "inDataTypes": [
+          "audio"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "source_audio",
+            "name": "Source Audio",
+            "dataSubType": null,
+            "dataType": "audio",
+            "defaultValue": [],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "sourcelanguage",
+            "name": "Source Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": null,
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "targetlanguage",
+            "name": "Target Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": null,
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": null,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "dialect",
+            "name": "Dialect",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": [],
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "voice",
+            "name": "Voice",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": [],
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "script",
+            "name": "Script",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": [],
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": false,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 0.0005,
+          "unitPriceRangeFrom": 0,
+          "unitPriceRangeTo": 0,
+          "unitType": "TIME",
+          "unitTypeScale": "MINUTE"
+        },
+        "name": "Speech Translation - English [Whisper base]",
+        "out": "English",
+        "outDataTypes": [
+          "text"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "text",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 1777,
+          "name": "OpenAI"
+        },
+        "totalSubscribed": 0,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "df74b2ac-693a-4da3-b5b1-4247395d92e1",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "assetId": "64a819e3f0eb266a7256f871",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "text-normalization",
+      "functionType": "AI",
+      "inputValues": [
+        {
+          "code": "settings",
+          "values": []
+        }
+      ],
+      "label": "AI 2",
+      "number": 3,
+      "position": {
+        "x": 912,
+        "y": 104
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": false,
+        "connectionType": [
+          "ASYNCHRONOUS"
+        ],
+        "createdAt": "2024-11-19T14:27:00.123Z",
+        "description": "This model specializes in handling text data from various languages, providing tailored preprocessing techniques for each language's unique characteristics.",
+        "developer": "aiXplain",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "text-normalization",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": false,
+          "code": "text-normalization",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "text",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Text",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "language",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Language",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": true,
+              "allowMultipleConnections": false,
+              "availableOptions": [
+                {
+                  "__typename": "DataValue",
+                  "label": "remove urls",
+                  "value": "remove urls"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove emails",
+                  "value": "remove emails"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove phone numbers",
+                  "value": "remove phone numbers"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove emojis",
+                  "value": "remove emojis"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove html tags",
+                  "value": "remove html tags"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "normalize quotes",
+                  "value": "normalize quotes"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "lowercase text",
+                  "value": "lowercase text"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove default arabic diacritics",
+                  "value": "remove default arabic diacritics"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove full arabic diacritics",
+                  "value": "remove full arabic diacritics"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "normalize default arabic",
+                  "value": "normalize default arabic"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "normalize full arabic",
+                  "value": "normalize full arabic"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove arabic superfluous",
+                  "value": "remove arabic superfluous"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "remove kashida dagger",
+                  "value": "remove kashida dagger"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "normalize spoken text",
+                  "value": "normalize spoken text"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "denormalize spoken text",
+                  "value": "denormalize spoken text"
+                },
+                {
+                  "__typename": "DataValue",
+                  "label": "tokenize text",
+                  "value": "tokenize text"
+                }
+              ],
+              "code": "settings",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Settings",
+              "relatedFunction": null,
+              "required": false
+            }
+          ],
+          "isDummy": null,
+          "name": "Text Normalization",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "label"
+            }
+          ],
+          "rules": [
+            "isLanguageBased",
+            "isReferenceRequired"
+          ],
+          "status": "onboarded",
+          "type": "AI"
+        },
+        "hostedBy": "aiXplain",
+        "hostingMethod": "SERVERLESS",
+        "id": "64a819e3f0eb266a7256f871",
+        "in": "English",
+        "inDataTypes": [
+          "text"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "text",
+            "name": "Text",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "language",
+            "name": "Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": null,
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": true,
+            "allowMultipleConnections": false,
+            "availableOptions": [
+              {
+                "__typename": "DataValue",
+                "label": "remove urls",
+                "value": "remove urls"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove emails",
+                "value": "remove emails"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove phone numbers",
+                "value": "remove phone numbers"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove emojis",
+                "value": "remove emojis"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove html tags",
+                "value": "remove html tags"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "normalize quotes",
+                "value": "normalize quotes"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "lowercase text",
+                "value": "lowercase text"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove default arabic diacritics",
+                "value": "remove default arabic diacritics"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove full arabic diacritics",
+                "value": "remove full arabic diacritics"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "normalize default arabic",
+                "value": "normalize default arabic"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "normalize full arabic",
+                "value": "normalize full arabic"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove arabic superfluous",
+                "value": "remove arabic superfluous"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "remove kashida dagger",
+                "value": "remove kashida dagger"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "normalize spoken text",
+                "value": "normalize spoken text"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "denormalize spoken text",
+                "value": "denormalize spoken text"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "tokenize text",
+                "value": "tokenize text"
+              }
+            ],
+            "code": "settings",
+            "name": "Settings",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": [],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": null,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 0.000001,
+          "unitPriceRangeFrom": 0,
+          "unitPriceRangeTo": 0,
+          "unitType": "CHAR",
+          "unitTypeScale": null
+        },
+        "name": "Text Normalization - English",
+        "out": "English",
+        "outDataTypes": [
+          "text"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "text",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 1,
+          "name": "aiXplain"
+        },
+        "totalSubscribed": 0,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "34fc9368-c124-4482-b3f3-664f92f5e504",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "assetId": "66140a046eb563380f6cd031",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "voice-cloning",
+      "functionType": "AI",
+      "inputValues": [],
+      "label": "AI 3",
+      "number": 4,
+      "position": {
+        "x": 912,
+        "y": 296
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": false,
+        "connectionType": [],
+        "createdAt": "2024-11-19T14:46:35.132Z",
+        "description": "This model takes list of base64 encoded audios, text, audio configurations (stability,similarity_boost,style,use_speaker_boost), and  (description,labels,name). based on these inputs it will clone the voice and give us the voice id and the cloned audio as outputs.",
+        "developer": "elevenlabs",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "voice-cloning",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": false,
+          "code": "voice-cloning",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "text",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Source Text",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "audio",
+              "dataSubType": null,
+              "dataType": "audio",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Audio",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "language",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Language",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "dialect",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Dialect",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "voice",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Voice",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "script",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Script",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "type",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Type",
+              "relatedFunction": null,
+              "required": false
+            }
+          ],
+          "isDummy": null,
+          "name": "Voice Cloning",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "audio"
+            }
+          ],
+          "rules": [
+            "isLanguageBased",
+            "isReferenceRequired"
+          ],
+          "status": "onboarded",
+          "type": "AI"
+        },
+        "hostedBy": "aiXplain",
+        "hostingMethod": "ALWAYSON",
+        "id": "66140a046eb563380f6cd031",
+        "in": "English",
+        "inDataTypes": [
+          "audio",
+          "text",
+          "label"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "data",
+            "name": "Audio",
+            "dataSubType": null,
+            "dataType": "audio",
+            "defaultValue": [],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "inputtext",
+            "name": "Text",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "language",
+            "name": "Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": [],
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "gender",
+            "name": "Gender",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "Male",
+                "value": "male"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "Male",
+                "value": "male"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Female",
+                "value": "female"
+              }
+            ]
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": false,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 1e-7,
+          "unitPriceRangeFrom": 0,
+          "unitPriceRangeTo": 0,
+          "unitType": "CHAR",
+          "unitTypeScale": null
+        },
+        "name": "Voice Cloning - ElevenLabs",
+        "out": "English",
+        "outDataTypes": [
+          "audio"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "audio",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 10482,
+          "name": "ElevenLabs"
+        },
+        "totalSubscribed": 2,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "c5e94a29-ef9f-4cbb-b1d7-dd8fba44ada5",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "assetId": "653684e161ddee7e38347e7b",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "extract-audio-from-video",
+      "functionType": "UTILITY",
+      "inputValues": [],
+      "label": "Utility 1",
+      "number": 5,
+      "position": {
+        "x": 416,
+        "y": 104
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": false,
+        "connectionType": [
+          "ASYNCHRONOUS"
+        ],
+        "createdAt": "2024-11-19T14:38:55.211Z",
+        "description": "Isolates and extracts audio tracks from video files, aiding in audio analysis or transcription tasks.",
+        "developer": "aiXplain",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "extract-audio-from-video",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": false,
+          "code": "extract-audio-from-video",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "video",
+              "dataSubType": null,
+              "dataType": "video",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Video",
+              "relatedFunction": null,
+              "required": true
+            }
+          ],
+          "isDummy": null,
+          "name": "Extract Audio From Video",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "audio"
+            }
+          ],
+          "rules": [
+            "isReferenceRequired",
+            "isSameReferenceLanguageRequired"
+          ],
+          "status": "onboarded",
+          "type": "UTILITY"
+        },
+        "hostedBy": "aiXplain",
+        "hostingMethod": "SERVERLESS",
+        "id": "653684e161ddee7e38347e7b",
+        "in": "",
+        "inDataTypes": [
+          "video"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "video",
+            "name": "Video",
+            "dataSubType": null,
+            "dataType": "video",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": null,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 0.0002,
+          "unitPriceRangeFrom": 0,
+          "unitPriceRangeTo": 0,
+          "unitType": "TIME",
+          "unitTypeScale": "SECOND"
+        },
+        "name": "Extract Audio From Video [extract-audio-from-video]",
+        "out": "",
+        "outDataTypes": [
+          "audio"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "audio",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 1,
+          "name": "aiXplain"
+        },
+        "totalSubscribed": 1,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "e2f5df65-94d8-462c-859c-bcf75480f636",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "assetId": "62dac0780962623aec901f71",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "video-generation",
+      "functionType": "AI",
+      "inputValues": [],
+      "label": "AI 4",
+      "number": 6,
+      "position": {
+        "x": 1216,
+        "y": 104
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": false,
+        "connectionType": [
+          "ASYNCHRONOUS"
+        ],
+        "createdAt": "2024-11-19T14:37:59.184Z",
+        "description": "Produces video content based on specific inputs or datasets. Can be used for simulations, animations, or even deepfake detection.",
+        "developer": "colossyan",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "video-generation",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": false,
+          "code": "video-generation",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "text",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Text",
+              "relatedFunction": null,
+              "required": true
+            }
+          ],
+          "isDummy": null,
+          "name": "Video Generation",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "video"
+            }
+          ],
+          "rules": [
+            "isReferenceRequired"
+          ],
+          "status": "onboarded",
+          "type": "AI"
+        },
+        "hostedBy": "colossyan",
+        "hostingMethod": "SERVERLESS",
+        "id": "62dac0780962623aec901f71",
+        "in": "Multiple Languages",
+        "inDataTypes": [
+          "text"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "text",
+            "name": "Body",
+            "dataSubType": "json",
+            "dataType": "text",
+            "defaultValue": null,
+            "example": "{\"videoCreative\":{\"settings\":{\"name\":\"My first video\",\"videoSize\":{\"height\":1080,\"width\":1080}},\"scenes\":[{\"name\":\"My first scene with an actor in it\",\"tracks\":[{\"type\":\"actor\",\"actor\":\"omar\",\"position\":{\"x\":0,\"y\":0},\"size\":{\"height\":1080,\"width\":1080},\"text\":\"This is my first video generated with Colossyan! Amazing!\",\"speakerId\":\"en-GB-RyanNeural\",\"removeBackground\":true}]}]}}",
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": false,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 3,
+          "unitPriceRangeFrom": 0,
+          "unitPriceRangeTo": 0,
+          "unitType": "TIME",
+          "unitTypeScale": "MINUTE"
+        },
+        "name": "Video Generation",
+        "out": "Multiple Languages",
+        "outDataTypes": [
+          "video"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "video",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 522,
+          "name": "Ibrahim Abdelsalam"
+        },
+        "totalSubscribed": 4,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "a08e274b-a431-444b-8b39-97da8e7c003e",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "assetId": "674a17f8098e7d5b18453db8",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "text-generation",
+      "functionType": "AI",
+      "inputValues": [],
+      "label": "AI 5",
+      "number": 7,
+      "position": {
+        "x": 1216,
+        "y": 296
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": true,
+        "connectionType": [],
+        "createdAt": "2024-11-29T19:37:28.539Z",
+        "description": "The Meta Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out).",
+        "developer": "Meta",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "text-generation",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": true,
+          "code": "text-generation",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "text",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Text",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "temperature",
+              "dataSubType": null,
+              "dataType": "number",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Temperature",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "prompt",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Prompt",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "context",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Context",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "language",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Language",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "script",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Script",
+              "relatedFunction": null,
+              "required": false
+            }
+          ],
+          "isDummy": null,
+          "name": "Text Generation",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "text"
+            }
+          ],
+          "rules": [
+            "isLanguageBased",
+            "isReferenceRequired"
+          ],
+          "status": "onboarded",
+          "type": "AI"
+        },
+        "hostedBy": "Deepinfra",
+        "hostingMethod": "ALWAYSON",
+        "id": "674a17f8098e7d5b18453db8",
+        "in": "",
+        "inDataTypes": [
+          "text"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": true,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "text",
+            "name": "Text",
+            "dataSubType": "json",
+            "dataType": "text",
+            "defaultValue": null,
+            "example": "[{\"role\": \"user\", \"content\": \"Hello !\"}, {\"role\":\"assistant\",\"content\":\"\\n\\nHello there! How may I assist you today?\"}, {\"role\": \"user\", \"content\": \"Can you help me write?\"}]",
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "template",
+            "name": "Template",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": null,
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "Template",
+                "value": "[{\"role\": \"user\", \"content\": \"<data>\"}]"
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "prompt",
+            "name": "Prompt",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": true,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "Prompt",
+                "value": " "
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "context",
+            "name": "Context",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "Context",
+                "value": " "
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "language",
+            "name": "Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": null,
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              }
+            ]
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "script",
+            "name": "Script",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": [],
+            "example": null,
+            "fixed": true,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "temperature",
+            "name": "Temperature",
+            "dataSubType": "number",
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "0",
+                "value": "0"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "top_p",
+            "name": "Top_p",
+            "dataSubType": "number",
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "0.7",
+                "value": "0.7"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "top_k",
+            "name": "Top_k",
+            "dataSubType": "number",
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "50",
+                "value": "50"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "max_tokens",
+            "name": "Max Tokens",
+            "dataSubType": "number",
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "2048",
+                "value": "2048"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "frequency_penalty",
+            "name": "Frequency Penalty",
+            "dataSubType": "number",
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "0",
+                "value": "0"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "presence_penalty",
+            "name": "Presence Penalty",
+            "dataSubType": "number",
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "0",
+                "value": "0"
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "history",
+            "name": "History",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": [
+              {
+                "__typename": "DataValue",
+                "label": "default",
+                "value": ""
+              }
+            ],
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": [
+              {
+                "__typename": "DataValue",
+                "label": "default",
+                "value": " "
+              }
+            ]
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": false,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 2e-8,
+          "unitPriceRangeFrom": 1e-8,
+          "unitPriceRangeTo": 2e-8,
+          "unitType": "TOKEN",
+          "unitTypeScale": null
+        },
+        "name": "Llama 3.2 1B Instruct",
+        "out": "",
+        "outDataTypes": [
+          "text"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "text",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 20164,
+          "name": "Deep Infra"
+        },
+        "totalSubscribed": 2,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "2a798160-e40f-43cc-a676-d3790eeeb070",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "assetId": "66aa869f6eb56342c26057e1",
+      "assetType": "MODEL",
+      "autoSelectOptions": [],
+      "fileMetadata": "{}",
+      "function": "translation",
+      "functionType": "AI",
+      "inputValues": [],
+      "label": "AI 6",
+      "number": 8,
+      "position": {
+        "x": 1536,
+        "y": 296
+      },
+      "status": "Exists",
+      "type": "ASSET",
+      "model": {
+        "__typename": "Model",
+        "assetType": "model",
+        "benchmarkable": true,
+        "connectionType": [],
+        "createdAt": "2024-11-19T14:37:39.108Z",
+        "description": null,
+        "developer": "Google",
+        "executionEndpoint": "https://models.aixplain.com/api/v1/execute",
+        "function": "translation",
+        "functionData": {
+          "__typename": "Function",
+          "benchmarkable": true,
+          "code": "translation",
+          "input": [
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "text",
+              "dataSubType": null,
+              "dataType": "text",
+              "defaultValue": [],
+              "fixed": false,
+              "name": "Source Text",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "sourcelanguage",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Source Language",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "targetlanguage",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Target Language",
+              "relatedFunction": null,
+              "required": true
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "script_in",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Script In",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "script_out",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Script Out",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "dialect_in",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Dialect In",
+              "relatedFunction": null,
+              "required": false
+            },
+            {
+              "__typename": "FunctionInput",
+              "allowedRange": {
+                "__typename": "AllowedRange",
+                "from": null,
+                "to": null
+              },
+              "allowMulti": false,
+              "allowMultipleConnections": false,
+              "availableOptions": [],
+              "code": "dialect_out",
+              "dataSubType": null,
+              "dataType": "label",
+              "defaultValue": [],
+              "fixed": true,
+              "name": "Dialect Out",
+              "relatedFunction": null,
+              "required": false
+            }
+          ],
+          "isDummy": null,
+          "name": "Translation",
+          "output": [
+            {
+              "__typename": "FunctionOutput",
+              "code": "data",
+              "dataType": "text"
+            }
+          ],
+          "rules": [
+            "isLanguageBased",
+            "isSingleOrNoReferenceRequired",
+            "isSameReferenceLanguageForbidden"
+          ],
+          "status": "onboarded",
+          "type": "AI"
+        },
+        "hostedBy": "Google",
+        "hostingMethod": "ALWAYSON",
+        "id": "66aa869f6eb56342c26057e1",
+        "in": "",
+        "inDataTypes": [
+          "text"
+        ],
+        "input": [
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [],
+            "code": "text",
+            "name": "Source Text",
+            "dataSubType": null,
+            "dataType": "text",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": true,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": []
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [
+              {
+                "__typename": "DataValue",
+                "label": "Abkhaz",
+                "value": "ab"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Acehnese",
+                "value": "ace"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Acholi",
+                "value": "ach"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Afar",
+                "value": "aa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Afrikaans",
+                "value": "af"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Albanian",
+                "value": "sq"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Alur",
+                "value": "alz"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Amharic",
+                "value": "am"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Arabic",
+                "value": "ar"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Armenian",
+                "value": "hy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Assamese",
+                "value": "as"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Avar",
+                "value": "av"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Awadhi",
+                "value": "awa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Aymara",
+                "value": "ay"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Azerbaijani",
+                "value": "az"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Balinese",
+                "value": "ban"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Baluchi",
+                "value": "bal"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bambara",
+                "value": "bm"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Baoulé",
+                "value": "bci"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bashkir",
+                "value": "ba"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Basque",
+                "value": "eu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Batak Karo",
+                "value": "btx"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Batak Simalungun",
+                "value": "bts"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Batak Toba",
+                "value": "bbc"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Belarusian",
+                "value": "be"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bemba",
+                "value": "bem"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bengali",
+                "value": "bn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Betawi",
+                "value": "bew"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bhojpuri",
+                "value": "bho"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bikol",
+                "value": "bik"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bosnian",
+                "value": "bs"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Breton",
+                "value": "br"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bulgarian",
+                "value": "bg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Buryat",
+                "value": "bua"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Cantonese",
+                "value": "yue"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Catalan",
+                "value": "ca"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Cebuano",
+                "value": "ceb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chamorro",
+                "value": "ch"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chechen",
+                "value": "ce"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chichewa",
+                "value": "ny"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chinese (Simplified)",
+                "value": "zh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chinese (Traditional)",
+                "value": "zh-TW"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chuukese",
+                "value": "chk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chuvash",
+                "value": "cv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Corsican",
+                "value": "co"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Crimean Tatar",
+                "value": "crh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Croatian",
+                "value": "hr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Czech",
+                "value": "cs"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Danish",
+                "value": "da"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dari",
+                "value": "fa-AF"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dinka",
+                "value": "din"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Divehi",
+                "value": "dv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dogri",
+                "value": "doi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dombe",
+                "value": "dov"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dutch",
+                "value": "nl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dyula",
+                "value": "dyu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dzongkha",
+                "value": "dz"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Esperanto",
+                "value": "eo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Estonian",
+                "value": "et"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ewe",
+                "value": "ee"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Faroese",
+                "value": "fo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Fijian",
+                "value": "fj"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Filipino",
+                "value": "tl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Finnish",
+                "value": "fi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Fon",
+                "value": "fon"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "French",
+                "value": "fr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Frisian",
+                "value": "fy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Friulian",
+                "value": "fur"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Fulfulde",
+                "value": "ff"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ga",
+                "value": "gaa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Galician",
+                "value": "gl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ganda",
+                "value": "lg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Georgian",
+                "value": "ka"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "German",
+                "value": "de"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Greek",
+                "value": "el"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Guarani",
+                "value": "gn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Gujarati",
+                "value": "gu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Haitian Creole",
+                "value": "ht"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hakha Chin",
+                "value": "cnh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hausa",
+                "value": "ha"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hawaiian",
+                "value": "haw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hebrew",
+                "value": "iw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hiligaynon",
+                "value": "hil"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hindi",
+                "value": "hi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hmong",
+                "value": "hmn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hungarian",
+                "value": "hu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hunsrik",
+                "value": "hrx"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Iban",
+                "value": "iba"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Icelandic",
+                "value": "is"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Igbo",
+                "value": "ig"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Iloko",
+                "value": "ilo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Indonesian",
+                "value": "id"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Irish Gaelic",
+                "value": "ga"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Italian",
+                "value": "it"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Jamaican Patois",
+                "value": "jam"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Japanese",
+                "value": "ja"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Javanese",
+                "value": "jw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Jingpo",
+                "value": "kac"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kalaallisut",
+                "value": "kl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kannada",
+                "value": "kn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kanuri",
+                "value": "kr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kapampangan",
+                "value": "pam"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kazakh",
+                "value": "kk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Khasi",
+                "value": "kha"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Khmer",
+                "value": "km"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kiga",
+                "value": "cgg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kikongo",
+                "value": "kg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kinyarwanda",
+                "value": "rw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kituba",
+                "value": "ktu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kokborok",
+                "value": "trp"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Komi",
+                "value": "kv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Konkani",
+                "value": "gom"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Korean",
+                "value": "ko"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Krio",
+                "value": "kri"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kurdish (Kurmanji)",
+                "value": "ku"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kurdish (Sorani)",
+                "value": "ckb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kyrgyz",
+                "value": "ky"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lao",
+                "value": "lo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Latgalian",
+                "value": "ltg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Latin",
+                "value": "la"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Latvian",
+                "value": "lv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ligurian",
+                "value": "lij"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Limburgan",
+                "value": "li"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lingala",
+                "value": "ln"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lithuanian",
+                "value": "lt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lombard",
+                "value": "lmo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Luo",
+                "value": "luo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Luxembourgish",
+                "value": "lb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Macedonian",
+                "value": "mk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Madurese",
+                "value": "mad"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Maithili",
+                "value": "mai"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Makassar",
+                "value": "mak"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malagasy",
+                "value": "mg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malay",
+                "value": "ms"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malay (Jawi)",
+                "value": "ms-Arab"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malayalam",
+                "value": "ml"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Maltese",
+                "value": "mt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mam",
+                "value": "mam"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Manx",
+                "value": "gv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Maori",
+                "value": "mi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Marathi",
+                "value": "mr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Marshallese",
+                "value": "mh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Marwadi",
+                "value": "mwr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mauritian Creole",
+                "value": "mfe"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Meadow Mari",
+                "value": "chm"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Meiteilon (Manipuri)",
+                "value": "mni-Mtei"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Minang",
+                "value": "min"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mizo",
+                "value": "lus"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mongolian",
+                "value": "mn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Myanmar (Burmese)",
+                "value": "my"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nahuatl (Eastern Huasteca)",
+                "value": "nhe"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ndau",
+                "value": "ndc-ZW"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ndebele (South)",
+                "value": "nr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nepalbhasa (Newari)",
+                "value": "new"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nepali",
+                "value": "ne"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "NKo",
+                "value": "bm-Nkoo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Northern Sotho",
+                "value": "nso"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Norwegian",
+                "value": "no"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nuer",
+                "value": "nus"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Occitan",
+                "value": "oc"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Odia (Oriya)",
+                "value": "or"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Oromo",
+                "value": "om"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ossetian",
+                "value": "os"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Pangasinan",
+                "value": "pag"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Papiamento",
+                "value": "pap"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Pashto",
+                "value": "ps"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Persian",
+                "value": "fa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Polish",
+                "value": "pl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Portuguese",
+                "value": "pt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Portuguese (Portugal)",
+                "value": "pt-PT"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Punjabi",
+                "value": "pa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Punjabi (Shahmukhi)",
+                "value": "pa-Arab"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Q'eqchi'",
+                "value": "kek"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Quechua",
+                "value": "qu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Romani",
+                "value": "rom"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Romanian",
+                "value": "ro"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Rundi",
+                "value": "rn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Russian",
+                "value": "ru"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sami (North)",
+                "value": "se"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Samoan",
+                "value": "sm"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sango",
+                "value": "sg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sanskrit",
+                "value": "sa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Santali",
+                "value": "sat-Latn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Scots Gaelic",
+                "value": "gd"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Serbian",
+                "value": "sr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sesotho",
+                "value": "st"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Seychellois Creole",
+                "value": "crs"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Shan",
+                "value": "shn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Shona",
+                "value": "sn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sicilian",
+                "value": "scn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Silesian",
+                "value": "szl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sindhi",
+                "value": "sd"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sinhala",
+                "value": "si"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Slovak",
+                "value": "sk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Slovenian",
+                "value": "sl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Somali",
+                "value": "so"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Spanish",
+                "value": "es"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sundanese",
+                "value": "su"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Susu",
+                "value": "sus"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Swahili",
+                "value": "sw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Swati",
+                "value": "ss"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Swedish",
+                "value": "sv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tahitian",
+                "value": "ty"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tajik",
+                "value": "tg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tamazight",
+                "value": "ber-Latn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tamazight (Tifinagh)",
+                "value": "ber"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tamil",
+                "value": "ta"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tatar",
+                "value": "tt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Telugu",
+                "value": "te"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tetum",
+                "value": "tet"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Thai",
+                "value": "th"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tibetan",
+                "value": "bo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tigrinya",
+                "value": "ti"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tiv",
+                "value": "tiv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tok Pisin",
+                "value": "tpi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tongan",
+                "value": "to"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tsonga",
+                "value": "ts"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tswana",
+                "value": "tn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tulu",
+                "value": "tcy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tumbuka",
+                "value": "tum"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Turkish",
+                "value": "tr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Turkmen",
+                "value": "tk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Twi",
+                "value": "tw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ukrainian",
+                "value": "uk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Upper Sorbian",
+                "value": "hsb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Urdu",
+                "value": "ur"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Uyghur",
+                "value": "ug"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Uzbek",
+                "value": "uz"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Venda",
+                "value": "ve"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Vietnamese",
+                "value": "vi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Võro",
+                "value": "vro"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Welsh",
+                "value": "cy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Wolof",
+                "value": "wo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Xhosa",
+                "value": "xh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yiddish",
+                "value": "yi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yoruba",
+                "value": "yo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yucatec Maya",
+                "value": "yua"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yue Chinese",
+                "value": "yue"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Zaza",
+                "value": "zza"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Zulu",
+                "value": "zu"
+              }
+            ],
+            "code": "sourcelanguage",
+            "name": "Source Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          },
+          {
+            "__typename": "ModelInput",
+            "allowedRange": {
+              "__typename": "AllowedRange",
+              "from": null,
+              "to": null
+            },
+            "allowMulti": false,
+            "allowMultipleConnections": false,
+            "availableOptions": [
+              {
+                "__typename": "DataValue",
+                "label": "Abkhaz",
+                "value": "ab"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Acehnese",
+                "value": "ace"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Acholi",
+                "value": "ach"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Afar",
+                "value": "aa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Afrikaans",
+                "value": "af"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Albanian",
+                "value": "sq"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Alur",
+                "value": "alz"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Amharic",
+                "value": "am"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Arabic",
+                "value": "ar"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Armenian",
+                "value": "hy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Assamese",
+                "value": "as"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Avar",
+                "value": "av"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Awadhi",
+                "value": "awa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Aymara",
+                "value": "ay"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Azerbaijani",
+                "value": "az"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Balinese",
+                "value": "ban"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Baluchi",
+                "value": "bal"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bambara",
+                "value": "bm"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Baoulé",
+                "value": "bci"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bashkir",
+                "value": "ba"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Basque",
+                "value": "eu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Batak Karo",
+                "value": "btx"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Batak Simalungun",
+                "value": "bts"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Batak Toba",
+                "value": "bbc"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Belarusian",
+                "value": "be"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bemba",
+                "value": "bem"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bengali",
+                "value": "bn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Betawi",
+                "value": "bew"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bhojpuri",
+                "value": "bho"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bikol",
+                "value": "bik"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bosnian",
+                "value": "bs"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Breton",
+                "value": "br"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Bulgarian",
+                "value": "bg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Buryat",
+                "value": "bua"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Cantonese",
+                "value": "yue"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Catalan",
+                "value": "ca"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Cebuano",
+                "value": "ceb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chamorro",
+                "value": "ch"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chechen",
+                "value": "ce"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chichewa",
+                "value": "ny"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chinese (Simplified)",
+                "value": "zh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chinese (Traditional)",
+                "value": "zh-TW"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chuukese",
+                "value": "chk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Chuvash",
+                "value": "cv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Corsican",
+                "value": "co"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Crimean Tatar",
+                "value": "crh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Croatian",
+                "value": "hr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Czech",
+                "value": "cs"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Danish",
+                "value": "da"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dari",
+                "value": "fa-AF"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dinka",
+                "value": "din"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Divehi",
+                "value": "dv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dogri",
+                "value": "doi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dombe",
+                "value": "dov"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dutch",
+                "value": "nl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dyula",
+                "value": "dyu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Dzongkha",
+                "value": "dz"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "English",
+                "value": "en"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Esperanto",
+                "value": "eo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Estonian",
+                "value": "et"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ewe",
+                "value": "ee"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Faroese",
+                "value": "fo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Fijian",
+                "value": "fj"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Filipino",
+                "value": "tl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Finnish",
+                "value": "fi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Fon",
+                "value": "fon"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "French",
+                "value": "fr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Frisian",
+                "value": "fy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Friulian",
+                "value": "fur"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Fulfulde",
+                "value": "ff"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ga",
+                "value": "gaa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Galician",
+                "value": "gl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ganda",
+                "value": "lg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Georgian",
+                "value": "ka"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "German",
+                "value": "de"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Greek",
+                "value": "el"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Guarani",
+                "value": "gn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Gujarati",
+                "value": "gu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Haitian Creole",
+                "value": "ht"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hakha Chin",
+                "value": "cnh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hausa",
+                "value": "ha"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hawaiian",
+                "value": "haw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hebrew",
+                "value": "iw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hiligaynon",
+                "value": "hil"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hindi",
+                "value": "hi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hmong",
+                "value": "hmn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hungarian",
+                "value": "hu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Hunsrik",
+                "value": "hrx"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Iban",
+                "value": "iba"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Icelandic",
+                "value": "is"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Igbo",
+                "value": "ig"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Iloko",
+                "value": "ilo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Indonesian",
+                "value": "id"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Irish Gaelic",
+                "value": "ga"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Italian",
+                "value": "it"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Jamaican Patois",
+                "value": "jam"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Japanese",
+                "value": "ja"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Javanese",
+                "value": "jw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Jingpo",
+                "value": "kac"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kalaallisut",
+                "value": "kl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kannada",
+                "value": "kn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kanuri",
+                "value": "kr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kapampangan",
+                "value": "pam"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kazakh",
+                "value": "kk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Khasi",
+                "value": "kha"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Khmer",
+                "value": "km"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kiga",
+                "value": "cgg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kikongo",
+                "value": "kg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kinyarwanda",
+                "value": "rw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kituba",
+                "value": "ktu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kokborok",
+                "value": "trp"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Komi",
+                "value": "kv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Konkani",
+                "value": "gom"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Korean",
+                "value": "ko"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Krio",
+                "value": "kri"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kurdish (Kurmanji)",
+                "value": "ku"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kurdish (Sorani)",
+                "value": "ckb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Kyrgyz",
+                "value": "ky"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lao",
+                "value": "lo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Latgalian",
+                "value": "ltg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Latin",
+                "value": "la"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Latvian",
+                "value": "lv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ligurian",
+                "value": "lij"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Limburgan",
+                "value": "li"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lingala",
+                "value": "ln"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lithuanian",
+                "value": "lt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Lombard",
+                "value": "lmo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Luo",
+                "value": "luo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Luxembourgish",
+                "value": "lb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Macedonian",
+                "value": "mk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Madurese",
+                "value": "mad"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Maithili",
+                "value": "mai"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Makassar",
+                "value": "mak"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malagasy",
+                "value": "mg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malay",
+                "value": "ms"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malay (Jawi)",
+                "value": "ms-Arab"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Malayalam",
+                "value": "ml"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Maltese",
+                "value": "mt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mam",
+                "value": "mam"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Manx",
+                "value": "gv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Maori",
+                "value": "mi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Marathi",
+                "value": "mr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Marshallese",
+                "value": "mh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Marwadi",
+                "value": "mwr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mauritian Creole",
+                "value": "mfe"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Meadow Mari",
+                "value": "chm"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Meiteilon (Manipuri)",
+                "value": "mni-Mtei"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Minang",
+                "value": "min"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mizo",
+                "value": "lus"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Mongolian",
+                "value": "mn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Myanmar (Burmese)",
+                "value": "my"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nahuatl (Eastern Huasteca)",
+                "value": "nhe"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ndau",
+                "value": "ndc-ZW"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ndebele (South)",
+                "value": "nr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nepalbhasa (Newari)",
+                "value": "new"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nepali",
+                "value": "ne"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "NKo",
+                "value": "bm-Nkoo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Northern Sotho",
+                "value": "nso"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Norwegian",
+                "value": "no"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Nuer",
+                "value": "nus"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Occitan",
+                "value": "oc"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Odia (Oriya)",
+                "value": "or"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Oromo",
+                "value": "om"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ossetian",
+                "value": "os"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Pangasinan",
+                "value": "pag"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Papiamento",
+                "value": "pap"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Pashto",
+                "value": "ps"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Persian",
+                "value": "fa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Polish",
+                "value": "pl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Portuguese",
+                "value": "pt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Portuguese (Portugal)",
+                "value": "pt-PT"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Punjabi",
+                "value": "pa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Punjabi (Shahmukhi)",
+                "value": "pa-Arab"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Q'eqchi'",
+                "value": "kek"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Quechua",
+                "value": "qu"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Romani",
+                "value": "rom"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Romanian",
+                "value": "ro"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Rundi",
+                "value": "rn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Russian",
+                "value": "ru"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sami (North)",
+                "value": "se"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Samoan",
+                "value": "sm"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sango",
+                "value": "sg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sanskrit",
+                "value": "sa"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Santali",
+                "value": "sat-Latn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Scots Gaelic",
+                "value": "gd"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Serbian",
+                "value": "sr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sesotho",
+                "value": "st"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Seychellois Creole",
+                "value": "crs"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Shan",
+                "value": "shn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Shona",
+                "value": "sn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sicilian",
+                "value": "scn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Silesian",
+                "value": "szl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sindhi",
+                "value": "sd"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sinhala",
+                "value": "si"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Slovak",
+                "value": "sk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Slovenian",
+                "value": "sl"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Somali",
+                "value": "so"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Spanish",
+                "value": "es"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Sundanese",
+                "value": "su"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Susu",
+                "value": "sus"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Swahili",
+                "value": "sw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Swati",
+                "value": "ss"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Swedish",
+                "value": "sv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tahitian",
+                "value": "ty"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tajik",
+                "value": "tg"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tamazight",
+                "value": "ber-Latn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tamazight (Tifinagh)",
+                "value": "ber"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tamil",
+                "value": "ta"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tatar",
+                "value": "tt"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Telugu",
+                "value": "te"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tetum",
+                "value": "tet"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Thai",
+                "value": "th"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tibetan",
+                "value": "bo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tigrinya",
+                "value": "ti"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tiv",
+                "value": "tiv"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tok Pisin",
+                "value": "tpi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tongan",
+                "value": "to"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tsonga",
+                "value": "ts"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tswana",
+                "value": "tn"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tulu",
+                "value": "tcy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Tumbuka",
+                "value": "tum"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Turkish",
+                "value": "tr"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Turkmen",
+                "value": "tk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Twi",
+                "value": "tw"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Ukrainian",
+                "value": "uk"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Upper Sorbian",
+                "value": "hsb"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Urdu",
+                "value": "ur"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Uyghur",
+                "value": "ug"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Uzbek",
+                "value": "uz"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Venda",
+                "value": "ve"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Vietnamese",
+                "value": "vi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Võro",
+                "value": "vro"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Welsh",
+                "value": "cy"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Wolof",
+                "value": "wo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Xhosa",
+                "value": "xh"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yiddish",
+                "value": "yi"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yoruba",
+                "value": "yo"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yucatec Maya",
+                "value": "yua"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Yue Chinese",
+                "value": "yue"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Zaza",
+                "value": "zza"
+              },
+              {
+                "__typename": "DataValue",
+                "label": "Zulu",
+                "value": "zu"
+              }
+            ],
+            "code": "targetlanguage",
+            "name": "Target Language",
+            "dataSubType": null,
+            "dataType": "label",
+            "defaultValue": null,
+            "example": null,
+            "fixed": false,
+            "relatedFunction": null,
+            "required": false,
+            "supportedFileTypes": [],
+            "supportsVariables": false,
+            "value": null
+          }
+        ],
+        "isExecutable": true,
+        "isFineTunable": false,
+        "isTransferable": false,
+        "latestPrice": {
+          "__typename": "ModelPrice",
+          "unitPrice": 0.00002,
+          "unitPriceRangeFrom": 0,
+          "unitPriceRangeTo": 0,
+          "unitType": "CHAR",
+          "unitTypeScale": null
+        },
+        "name": "Translate Multi-Lingual",
+        "out": "",
+        "outDataTypes": [
+          "text"
+        ],
+        "output": [
+          {
+            "__typename": "ModelOutput",
+            "code": "data",
+            "dataSubType": null,
+            "dataType": "text",
+            "example": null,
+            "pipelineConfig": {
+              "__typename": "ModelOutputPipelineConfig",
+              "allowedNodeTypes": []
+            }
+          }
+        ],
+        "privacy": "Public",
+        "status": "onboarded",
+        "subscribed": false,
+        "subscription": null,
+        "teamData": {
+          "__typename": "ShortTeam",
+          "id": 1769,
+          "name": "Google"
+        },
+        "totalSubscribed": 9,
+        "type": "REGULAR",
+        "versioning": {
+          "__typename": "ResourceInfo",
+          "key": "37004c82-cb8c-4326-9d33-e5863c835e16",
+          "tag": "initial",
+          "tags": [
+            "initial"
+          ]
+        }
+      }
+    },
+    {
+      "dataType": [
+        "video"
+      ],
+      "label": "Generated Video Based on Input",
+      "message": "The video generated based on the input",
+      "number": 9,
+      "position": {
+        "x": 1520,
+        "y": 124
+      },
+      "type": "OUTPUT"
+    },
+    {
+      "dataType": [
+        "text"
+      ],
+      "label": "Tutoring Material",
+      "message": "Material for tutoring in target language",
+      "number": 10,
+      "position": {
+        "x": 1872,
+        "y": 316
+      },
+      "type": "OUTPUT"
+    },
+    {
+      "dataType": [
+        "audio"
+      ],
+      "label": "Cloned Voice in Target Language",
+      "message": "The output of Voice Cloning",
+      "number": 11,
+      "position": {
+        "x": 960,
+        "y": 460
+      },
+      "type": "OUTPUT"
+    }
+  ]
+}
